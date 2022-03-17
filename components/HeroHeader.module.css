@@ -1,0 +1,13 @@
+.hero {
+  background-image: linear-gradient(
+    to right top,
+    #d6e8ea,
+    #caecef,
+    #bdeff3,
+    #aff3f6,
+    #9ff6f9
+  );
+  display: flex;
+  padding: 2rem;
+  width: 80%;
+}
