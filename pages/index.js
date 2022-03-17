@@ -1,5 +1,6 @@
 import Head from "next/head";
 
+import { ContactComponent } from "@components/ContactComponent";
 import { Footer } from "@components/Footer";
 import { HeroHeader } from "@components/HeroHeader";
 import { TopNav } from "@components/TopNav";
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Netlify Psychiatric</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,9 +17,7 @@ export default function Home() {
 
       <main>
         <HeroHeader />
-        <p className="description">
-          Get started by editing <code>pages/foobar.js</code>
-        </p>
+        <ContactComponent />
       </main>
 
       <Footer />
