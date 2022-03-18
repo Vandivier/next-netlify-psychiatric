@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {
@@ -32,4 +32,15 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/*
+  ref: https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  max-width derived from bootstrap medium
+  includes cell phones, tablets, very small laptops
+*/
+@media only screen and (max-width: 991px) {
+  .container {
+    padding: 0 1rem;
+  }
 }

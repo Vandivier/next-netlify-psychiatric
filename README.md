@@ -12,6 +12,8 @@ This project is a very minimal starter that includes 2 sample components, a glob
 
 ## Getting Started
 
+Update `next.config.template.js` appropriately (env vars mainly) and rename to `next.config.js`.
+
 First, run the development server:
 
 ```bash
