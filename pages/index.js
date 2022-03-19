@@ -7,7 +7,7 @@ import { TopNav } from "@components/TopNav";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="pageContainer">
       <Head>
         <title>Netlify Psychiatric</title>
         <link rel="icon" href="/favicon.ico" />
