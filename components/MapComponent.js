@@ -1,15 +1,15 @@
 import GoogleMapReact from "google-map-react";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+import { MapMarker } from "@components/MapMarker";
 
 export const MapComponent = () => {
   // ref: https://stackoverflow.com/questions/52248646/googlemaps-api-key-for-testing
   const stubData = {
     center: {
-      lat: 59.95,
-      lng: 30.33,
+      lat: 39,
+      lng: -92,
     },
-    zoom: 11,
+    zoom: 4,
   };
 
   return (
@@ -20,7 +20,12 @@ export const MapComponent = () => {
         defaultCenter={stubData.center}
         defaultZoom={stubData.zoom}
       >
-        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
+        <MapMarker
+          lat={34.04}
+          lng={-118.45}
+          onClick={() => {}}
+          text="Ladderly Psychiatric"
+        />
       </GoogleMapReact>
     </div>
   );
