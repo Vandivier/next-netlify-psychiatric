@@ -1,0 +1,19 @@
+/* note: .topNav styled like globals.css `main` */
+.topNav {
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.topNav ul {
+  justify-content: space-evenly;
+  display: flex;
+  width: 30rem;
+  margin: auto;
+  max-width: 80%;
+  padding: 0;
+}
+
+.topNav ul li {
+  display: inline-flex;
+  list-style: none;
+}

@@ -15,10 +15,12 @@ export default function Home() {
 
       <TopNav />
 
-      <main>
-        <HeroHeader />
-        <ContactComponent />
-      </main>
+      <div className="mainWrapper">
+        <main>
+          <HeroHeader />
+          <ContactComponent />
+        </main>
+      </div>
 
       <Footer />
     </div>

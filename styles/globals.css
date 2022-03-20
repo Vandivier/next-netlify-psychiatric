@@ -1,3 +1,5 @@
+/* theme: https://coolors.co/ffe2d6-fcefee-d2dad6-eae1d7-ffdbc2 */
+
 html,
 body {
   padding: 0;
@@ -11,7 +13,7 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -24,6 +26,18 @@ code {
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+main {
+  margin: auto;
+  padding: 0 0 2rem;
+  width: 92%;
+}
+
+/* is theme color `#EAE1D7` as RGBA w/ alpha 0.4 to lighten */
+.mainWrapper {
+  background: linear-gradient(0, rgb(234, 225, 215, 0.4), #0000);
+  width: 100%;
 }
 
 .pageContainer {
@@ -44,7 +58,8 @@ code {
   includes cell phones, tablets, very small laptops
 */
 @media only screen and (max-width: 991px) {
-  .pageContainer {
-    padding: 0 1rem;
+  main {
+    padding: 0 1rem 1rem;
+    width: 100%;
   }
 }

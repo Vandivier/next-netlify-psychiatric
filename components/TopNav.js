@@ -1,5 +1,7 @@
+import styles from "./TopNav.module.css";
+
 export const TopNav = () => (
-  <nav>
+  <nav className={styles.topNav}>
     <ul>
       <li>
         <a href="/">Home</a>

@@ -9,6 +9,8 @@ export const ContactComponent = () => (
     <p className="m-pt5rem">P: 424-999-1111</p>
     <p className="m-pt5rem">F: 424-999-1112</p>
     <MapComponent />
+
+    <h3 style={{ margin: "1rem 0 .5rem" }}>Contact Us</h3>
     <p>TODO: Contact Form</p>
   </>
 );

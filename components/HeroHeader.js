@@ -6,8 +6,12 @@ import styles from "./HeroHeader.module.css";
 export const HeroHeader = () => (
   <>
     <div className={styles.hero}>
-      <AboutSection />
-      <ServicesOfferedShort />
+      <div className={styles.heroHalfSection}>
+        <AboutSection />
+      </div>
+      <div className={styles.heroHalfSection}>
+        <ServicesOfferedShort />
+      </div>
     </div>
   </>
 );
