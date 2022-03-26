@@ -34,21 +34,6 @@ main {
   width: 92%;
 }
 
-/* is theme color `#EAE1D7` as RGBA w/ alpha 0.4 to lighten */
-.mainWrapper {
-  background: linear-gradient(0, rgb(234, 225, 215, 0.4), #0000);
-  min-height: 80vh;
-  width: 100%;
-}
-
-.pageContainer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .m-pt5rem {
   margin: 0.5rem;
 }

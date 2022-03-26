@@ -1,8 +1,8 @@
 import { AboutSection } from "@components/AboutSection";
 import { ServicesOfferedShort } from "@components/ServicesOfferedShort";
+import { TwoColumnRow } from "@components/TwoColumnRow";
 
 import styles from "./HeroHeader.module.css";
-import { TwoColumnRow } from "./TwoColumnRow";
 
 export const HeroHeader = () => (
   <TwoColumnRow
