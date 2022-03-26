@@ -1,5 +1,4 @@
 .hero {
-  align-items: center;
   /* background-image: linear-gradient(
     to right top,
     #d6e8ea,
@@ -14,20 +13,4 @@
     #fcefee /* #eae1d7,
     #d2dad6 */
   );
-  display: flex;
-  flex-wrap: wrap;
-  height: 80vh;
-  padding: 2rem;
-  width: 100%;
-}
-
-.heroHalfSection {
-  padding: 1rem;
-  width: 50%;
-}
-
-@media only screen and (max-width: 991px) {
-  .heroHalfSection {
-    width: 100%;
-  }
 }

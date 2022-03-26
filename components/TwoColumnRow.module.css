@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  padding: 2rem;
+}
+
+.column {
+  padding: 1rem;
+  width: 50%;
+}
+
+@media only screen and (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}

@@ -6,7 +6,8 @@ const Services = () => (
     headTitle="Services"
     MainContent={() => (
       <>
-        <p>TODO: TWO-COLUMN WITH ALTERNATING ROW COLOR VIA THEME</p>
+        <section></section>
+        <section></section>
       </>
     )}
   />

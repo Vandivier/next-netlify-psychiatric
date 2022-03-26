@@ -2,16 +2,20 @@ import { AboutSection } from "@components/AboutSection";
 import { ServicesOfferedShort } from "@components/ServicesOfferedShort";
 
 import styles from "./HeroHeader.module.css";
+import { TwoColumnRow } from "./TwoColumnRow";
 
 export const HeroHeader = () => (
-  <>
-    <div className={styles.hero}>
-      <div className={styles.heroHalfSection}>
+  <TwoColumnRow
+    className={styles.hero}
+    ContentLeft={() => (
+      <>
         <AboutSection />
-      </div>
-      <div className={styles.heroHalfSection}>
+      </>
+    )}
+    ContentRight={() => (
+      <>
         <ServicesOfferedShort />
-      </div>
-    </div>
-  </>
+      </>
+    )}
+  />
 );
