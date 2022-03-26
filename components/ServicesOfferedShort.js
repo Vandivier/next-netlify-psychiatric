@@ -7,6 +7,6 @@ export const ServicesOfferedShort = () => (
       <li>Check whether you are depressed</li>
       <li>Cry with you</li>
     </ul>
-    <button>Book a Consult Now!</button>
+    <button>Request a Consult</button>
   </>
 );

@@ -1,26 +1,15 @@
-import Head from "next/head";
-
 import { ContactComponent } from "@components/ContactComponent";
-import { Footer } from "@components/Footer";
-import { TopNav } from "@components/TopNav";
+import { PageWrapper } from "@components/PageWrapper";
 
-export default function ContactPage() {
-  return (
-    <div className="pageContainer">
-      <Head>
-        <title>Contact Us</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const ContactUs = () => (
+  <PageWrapper
+    headTitle="Contact Us"
+    MainContent={() => (
+      <>
+        <ContactComponent />
+      </>
+    )}
+  />
+);
 
-      <TopNav />
-
-      <div className="mainWrapper">
-        <main>
-          <ContactComponent />
-        </main>
-      </div>
-
-      <Footer />
-    </div>
-  );
-}
+export default ContactUs;

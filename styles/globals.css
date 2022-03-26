@@ -37,6 +37,7 @@ main {
 /* is theme color `#EAE1D7` as RGBA w/ alpha 0.4 to lighten */
 .mainWrapper {
   background: linear-gradient(0, rgb(234, 225, 215, 0.4), #0000);
+  min-height: 80vh;
   width: 100%;
 }
 

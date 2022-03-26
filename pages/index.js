@@ -1,28 +1,17 @@
-import Head from "next/head";
-
 import { ContactComponent } from "@components/ContactComponent";
-import { Footer } from "@components/Footer";
 import { HeroHeader } from "@components/HeroHeader";
-import { TopNav } from "@components/TopNav";
+import { PageWrapper } from "@components/PageWrapper";
 
-export default function Home() {
-  return (
-    <div className="pageContainer">
-      <Head>
-        <title>Netlify Psychiatric</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const Home = () => (
+  <PageWrapper
+    headTitle="Netlify Psychiatric"
+    HeaderElement={HeroHeader}
+    MainContent={() => (
+      <>
+        <ContactComponent />
+      </>
+    )}
+  />
+);
 
-      <TopNav />
-
-      <div className="mainWrapper">
-        <main>
-          <HeroHeader />
-          <ContactComponent />
-        </main>
-      </div>
-
-      <Footer />
-    </div>
-  );
-}
+export default Home;

@@ -1,6 +1,7 @@
 /* note: .topNav styled like globals.css `main` */
 .topNav {
   padding: 3rem 1rem;
+  height: 10vh;
   width: 100%;
 }
 
