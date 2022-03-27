@@ -25,7 +25,7 @@ export const PageWrapper = ({
         {HeaderElement ? (
           <HeaderElement />
         ) : (
-          <header>
+          <header className="rowColored">
             <h1>{headTitle}</h1>
           </header>
         )}

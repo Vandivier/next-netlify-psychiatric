@@ -34,8 +34,40 @@ main {
   width: 92%;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
+.m-0 {
+  margin: 0;
+}
+
 .m-pt5rem {
   margin: 0.5rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.rowColored {
+  background-color: rgb(234, 225, 215, 0.4);
+  text-align: center;
+  width: 100%;
+}
+
+.rowWhite {
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.twoColumnRowImage {
+  width: 80%;
 }
 
 /*
@@ -46,6 +78,14 @@ main {
 @media only screen and (max-width: 991px) {
   main {
     padding: 0 1rem 1rem;
+    width: 100%;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .twoColumnRowImage {
     width: 100%;
   }
 }
