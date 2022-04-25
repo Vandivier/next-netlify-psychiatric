@@ -1,4 +1,5 @@
 import { PageWrapper } from "@components/PageWrapper";
+import { StrongLink } from "@components/StrongLink";
 import { TwoColumnRow } from "@components/TwoColumnRow";
 
 // ref: https://refine-psychiatry.com/our-services/
@@ -84,7 +85,10 @@ const Services = () => (
               <p>$600</p>
               <h3>Follow-up Appointment</h3>
               <p>$300</p>
-              <button>Request a Consult</button>
+              <StrongLink
+                linkTo="https://app2.luminello.com/some-practitioner-url"
+                text="Request a Consult"
+              />
             </div>
           )}
           ContentRight={() => (
