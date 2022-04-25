@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.topNav a {
+  text-decoration: none;
+}
+
 .topNav ul {
   justify-content: space-evenly;
   display: flex;

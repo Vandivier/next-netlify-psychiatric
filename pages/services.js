@@ -1,6 +1,4 @@
-import { AboutSection } from "@components/AboutSection";
 import { PageWrapper } from "@components/PageWrapper";
-import { ServicesOfferedShort } from "@components/ServicesOfferedShort";
 import { TwoColumnRow } from "@components/TwoColumnRow";
 
 // ref: https://refine-psychiatry.com/our-services/
@@ -10,7 +8,6 @@ const Services = () => (
     MainContent={() => (
       <>
         <TwoColumnRow
-          //   className={styles.hero}
           ContentLeft={() => (
             <div>
               <img

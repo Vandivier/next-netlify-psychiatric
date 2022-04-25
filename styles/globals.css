@@ -1,15 +1,27 @@
 /* theme: https://coolors.co/ffe2d6-fcefee-d2dad6-eae1d7-ffdbc2 */
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #69bd93;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 main {
@@ -31,6 +43,13 @@ code {
 main {
   margin: auto;
   padding: 0 0 2rem;
+}
+
+.cover-image {
+  max-height: 40vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
 }
 
 .list-style-none {
@@ -63,6 +82,11 @@ main {
 
 .textAlignLeft {
   text-align: left;
+}
+
+h2.title {
+  font-size: 4rem;
+  font-weight: 400;
 }
 
 .twoColumnRowImage {
