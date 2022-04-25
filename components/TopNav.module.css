@@ -1,7 +1,8 @@
 /* note: .topNav styled like globals.css `main` */
 .topNav {
-  padding: 3rem 1rem;
-  height: 10vh;
+  display: flex;
+  min-height: 8vh;
+  padding: 2rem 1rem;
   width: 100%;
 }
 
@@ -14,7 +15,16 @@
   padding: 0;
 }
 
+.topNav ul.floatRight {
+  justify-content: flex-end;
+  margin: 0 0 0 auto;
+}
+
 .topNav ul li {
   display: inline-flex;
   list-style: none;
+}
+
+.topNav ul.floatRight li {
+  margin-left: 2rem;
 }
