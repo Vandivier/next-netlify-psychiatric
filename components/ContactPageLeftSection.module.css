@@ -1,0 +1,10 @@
+.contactFormTextArea {
+  height: 10vh;
+  width: 25rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .contactFormTextArea {
+    width: 15rem;
+  }
+}

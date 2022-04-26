@@ -1,8 +1,18 @@
+.contactColumn {
+  padding: 0 1rem 1rem;
+  width: 50%;
+}
+
 .contactContainer {
   display: flex;
 }
 
-.contactColumn {
-  padding: 0 1rem 1rem;
-  width: 50%;
+@media only screen and (max-width: 991px) {
+  .contactColumn {
+    width: 100%;
+  }
+
+  .contactContainer {
+    display: block;
+  }
 }
