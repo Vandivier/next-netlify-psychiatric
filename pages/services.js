@@ -106,7 +106,6 @@ const Services = () => (
         />
       </>
     )}
-    withGutters={false}
   />
 );
 

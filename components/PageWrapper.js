@@ -5,12 +5,7 @@ import { TopNav } from "@components/TopNav";
 
 import styles from "./PageWrapper.module.css";
 
-export const PageWrapper = ({
-  headTitle,
-  HeaderElement,
-  MainContent,
-  withGutters = true,
-}) => (
+export const PageWrapper = ({ headTitle, HeaderElement, MainContent }) => (
   <div className={styles.pageContainer}>
     <Head>
       <title>{headTitle}</title>
@@ -21,7 +16,7 @@ export const PageWrapper = ({
 
     {/* TODO: maybe move header + hero, etc above main? */}
     <div className={styles.mainWrapper}>
-      <main className={withGutters ? "" : styles.noGutters}>
+      <main className={styles.noGutters}>
         {HeaderElement ? (
           <HeaderElement />
         ) : (
