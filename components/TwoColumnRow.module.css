@@ -2,16 +2,30 @@
   width: 100%;
 }
 
+.column {
+  width: 50%;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
   min-height: 10vh;
+}
+
+.withPadding .column {
+  padding: 1rem;
+}
+
+.withPadding .row {
   padding: 2rem;
 }
 
-.column {
-  padding: 1rem;
-  width: 50%;
+.withoutPadding .column {
+  padding: 0;
+}
+
+.withoutPadding .row {
+  padding: 0;
 }
 
 @media only screen and (max-width: 991px) {

@@ -22,5 +22,6 @@ export const HeroHeader = () => (
       </div>
     )}
     isColored={true}
+    isPadded={false}
   />
 );

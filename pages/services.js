@@ -21,9 +21,9 @@ const Services = () => (
           )}
           ContentRight={() => (
             <>
-              <h3>Our Specialties</h3>
+              <h3 style={{ textAlign: "left" }}>Our Specialties</h3>
               <TwoColumnRow
-                className="textAlignLeft"
+                className="p-0-children textAlignLeft"
                 ContentLeft={() => (
                   <>
                     <h4>Adults</h4>
@@ -54,6 +54,7 @@ const Services = () => (
                     </ul>
                   </>
                 )}
+                isPadded={false}
               />
             </>
           )}

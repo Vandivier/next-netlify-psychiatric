@@ -1,3 +1,4 @@
+import { ContactComponent } from "@components/ContactComponent";
 import { PageWrapper } from "@components/PageWrapper";
 import { StrongLink } from "@components/StrongLink";
 import { TwoColumnRow } from "@components/TwoColumnRow";
@@ -56,6 +57,7 @@ const About = () => (
             </div>
           )}
         />
+        <ContactComponent />
       </>
     )}
   />

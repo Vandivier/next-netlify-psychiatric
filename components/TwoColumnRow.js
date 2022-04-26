@@ -5,11 +5,15 @@ export const TwoColumnRow = ({
   ContentLeft,
   ContentRight,
   isColored = false,
+  isPadded = true,
 }) => (
   <section
-    className={`${className} ${styles.container} ${
-      isColored ? "rowColored" : "rowWhite"
-    }`}
+    className={`
+      ${className || ""}
+      ${styles.container}
+      ${isColored ? "rowColored" : "rowWhite"}
+      ${isPadded ? styles.withPadding : styles.withoutPadding}
+      `}
   >
     <div className={styles.row}>
       {ContentLeft ? (

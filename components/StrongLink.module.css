@@ -8,7 +8,6 @@ a.strongLink {
 }
 
 a.strongLink:hover {
-  background: rgb(60, 60, 60);
   box-shadow: 5px 10px #888888;
   color: rgb(234, 225, 215, 1);
   transform: translateY(-0.5rem);

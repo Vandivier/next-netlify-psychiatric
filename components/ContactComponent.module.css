@@ -1,0 +1,8 @@
+.contactContainer {
+  display: flex;
+}
+
+.contactColumn {
+  padding: 0 1rem 1rem;
+  width: 50%;
+}
