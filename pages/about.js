@@ -1,4 +1,5 @@
 import { PageWrapper } from "@components/PageWrapper";
+import { StrongLink } from "@components/StrongLink";
 import { TwoColumnRow } from "@components/TwoColumnRow";
 
 const About = () => (
@@ -46,6 +47,11 @@ const About = () => (
                   ground round. Andouille frankfurter capicola shank, sausage
                   filet mignon salami.
                 </p>
+
+                <StrongLink
+                  linkTo="https://app2.luminello.com/some-practitioner-url"
+                  text="Request a Consult"
+                />
               </div>
             </div>
           )}
