@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 export const Footer = () => (
   <>
     <footer className={styles.footer}>
-      ©2022 by John Vandivier - All Rights Reserved
+      {process.env.COPYRIGHT_TEXT || "©2022 All Rights Reserved"}
     </footer>
   </>
 );
